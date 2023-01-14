@@ -442,3 +442,24 @@ footer
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+@media only screen and (min-width: 992px) {
+  .list input[type=image]{
+    top: -9em;
+  }
+  .about{
+    position: relative;
+    background-color: #8224e0;
+    width: 98.9vw;
+    height: 27vh;
+    top: 30em;
+  }
+  .contain{
+    height: 75vh;
+    
+  }
+  .contain .box{
+  height: 550px;
+
+  }
+}
